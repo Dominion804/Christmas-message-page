@@ -1,0 +1,72 @@
+body {
+    background-image: url('a-festive-christmas-background-suitable-for-a-webs.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+* {
+
+    /* box-sizing: border-box; */
+    font-family: poppins;
+}
+
+.mainsec {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+  padding-bottom: 50px;
+    
+
+}
+
+
+
+p{
+    font-size:15px;
+    
+}
+
+.salvationTxt{
+    max-width:400px;
+    
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    padding: 40px;
+    gap:10px;
+    color:#2F3A40;
+    
+}
+
+.heading{
+    width: fit-content;
+
+}
+
+.heading h1{
+    color:#2F3A40;
+}
+
+
+@media(max-width:650px) {
+    p{
+        font-size: 8px;
+    }
+
+    .mainsec{
+        width:400px;
+        height:400px;
+    }
+}
+
